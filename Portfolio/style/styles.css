@@ -262,6 +262,7 @@ header {
     background-size: cover;
     padding: 79px 10px 0;
     overflow: hidden;
+    background-attachment: fixed;
 }
 
 header::before {

@@ -260,7 +260,7 @@ header {
     min-height: 100vh;
     background: url(../asset/images/banner.jpg) center no-repeat;
     background-size: cover;
-    padding: 79px 10px 0;
+    padding: 79px 20px 0;
     overflow: hidden;
     background-attachment: fixed;
 }
@@ -286,7 +286,6 @@ header .off-screen-menu {
     top: 0;
     left: 0;
     right: 0;
-    padding: 25px 10px 10px;
     transition: all .3s ease;
 }
 
@@ -419,7 +418,7 @@ header .off-screen-menu {
 .about {
     max-width: 1350px;
     margin: auto;
-    padding: 100px 10px;
+    padding: 100px 20px;
     overflow: hidden;
 }
 
@@ -498,7 +497,7 @@ header .off-screen-menu {
 .resume {
     max-width: 1125px;
     margin: auto;
-    padding: 100px 10px;
+    padding: 100px 20px;
     overflow: hidden;
 }
 
@@ -595,7 +594,7 @@ header .off-screen-menu {
 /* Section 3 */
 .certificate {
     background-color: var(--black);
-    padding: 100px 10px;
+    padding: 100px 20px;
     overflow: hidden;
 }
 
@@ -618,6 +617,7 @@ header .off-screen-menu {
 
 .certificate .certicate-container {
     max-width: 400px;
+    border-radius: 10px;
     height: auto;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -625,7 +625,6 @@ header .off-screen-menu {
 
 .certificate .certicate-container:hover {
     cursor: pointer;
-    border-radius: 10px;
 }
 
 #certificate {
@@ -745,7 +744,7 @@ header .off-screen-menu {
 /* Section 4 */
 .project {
     overflow: hidden;
-    padding: 100px 20px;
+    padding: 100px 30px;
 }
 
 .project>.container {
@@ -799,9 +798,9 @@ header .off-screen-menu {
 }
 
 .project .container>div {
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.63);
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.63);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.63);
+    box-shadow: 0px 0px 10px 0px rgba(156, 156, 156, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(156, 156, 156, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(156, 156, 156, 0.75);
     border-radius: 20px;
 }
 
@@ -832,7 +831,7 @@ header .off-screen-menu {
     background: url(../asset/images/plastercraft_architects.jpg) center top no-repeat;
     background-size: cover;
     border: 1px solid var(--black);
-    transition: all 16s ease;
+    transition: background-position 16s ease;
 }
 
 .project .first-project .project-slide:hover {
@@ -851,7 +850,7 @@ header .off-screen-menu {
     background: url(../asset/images/xtremecarpetsalem.jpg) center top no-repeat;
     background-size: cover;
     border: 1px solid var(--black);
-    transition: all 14s ease;
+    transition: background-position 14s ease;
 }
 
 .project .second-project .project-slide:hover {
@@ -862,7 +861,7 @@ header .off-screen-menu {
 /* Section 5 */
 .hire {
     background-color: var(--black);
-    padding: 100px 10px 100px;
+    padding: 100px 20px 100px;
     overflow: hidden;
 }
 
@@ -903,16 +902,16 @@ header .off-screen-menu {
 
 /* Section 6 */
 .contact {
-    padding: 100px 20px;
+    padding: 100px 30px;
     overflow: hidden;
 }
 
 .contact .content {
     max-width: 1000px;
     margin: auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.63);
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.63);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.63);
+    box-shadow: 0px 0px 10px 0px rgba(156, 156, 156, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(156, 156, 156, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(156, 156, 156, 0.75);
     border-radius: 20px;
     padding: 60px 50px;
 }
@@ -992,7 +991,7 @@ header .off-screen-menu {
 
 /* Footer */
 footer {
-    padding: 60px 10px;
+    padding: 60px 20px;
     background: var(--black);
     overflow: hidden;
 }
@@ -1650,10 +1649,6 @@ footer .create span {
     .certificate .next {
         padding: 5px;
         font-size: 16px;
-    }
-
-    .certificate .close {
-        font-size: 30px;
     }
 
     /* Section 4 */

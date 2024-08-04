@@ -24,7 +24,7 @@ function onScroll() {
   if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
     document.getElementById("scroll").style.padding = "10px 20px 10px";
     document.getElementById("scroll").style.backgroundColor = "#fff";
-    document.getElementById("scroll").style.boxShadow = "0px 0px 10px 0px rgba(156, 156, 156, 0.75)";
+    document.getElementById("scroll").style.boxShadow = "0px 0px 10px 0px rgba(0,0,0,0.4)";
     document.getElementById("logo-text").style.color = "#000";
     document.querySelectorAll("#menu-text").forEach(function (element) {
       element.style.color = "#000";

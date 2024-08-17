@@ -281,6 +281,7 @@ header .off-screen-menu {
 }
 
 .header-nav {
+    padding: 25px 20px 10px;
     position: fixed;
     z-index: 1;
     top: 0;

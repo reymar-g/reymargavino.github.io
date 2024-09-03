@@ -18,6 +18,15 @@ hamMenu.addEventListener("click", () => {
   offScreenMenu.classList.toggle("active");
 });
 
+const clickedMenus = document.querySelectorAll("#mext-text");
+
+clickedMenus.forEach(menu => {
+  menu.addEventListener("click", () => {
+    hamMenu.classList.toggle("active");
+    offScreenMenu.classList.toggle("active");
+  });
+});
+
 
 // Navigation OnScroll
 function onScroll() {

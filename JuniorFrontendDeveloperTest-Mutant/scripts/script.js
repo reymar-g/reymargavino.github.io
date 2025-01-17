@@ -5,6 +5,7 @@ const offScreenMenu = document.querySelector(".off-screen-menu");
 hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
+  document.body.classList.toggle('unscroll')
 });
 
 const clickedMenus = document.querySelectorAll("#mext-text");
@@ -13,5 +14,6 @@ clickedMenus.forEach(menu => {
   menu.addEventListener("click", () => {
     hamMenu.classList.toggle("active");
     offScreenMenu.classList.toggle("active");
+    document.body.classList.toggle('unscroll')
   });
 });

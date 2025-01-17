@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'PP Hatton';
+    src: url('PPHatton-Ultralight.eot');
+    src: url('PPHatton-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('PPHatton-Ultralight.woff2') format('woff2'),
+        url('PPHatton-Ultralight.woff') format('woff'),
+        url('PPHatton-Ultralight.ttf') format('truetype'),
+        url('PPHatton-Ultralight.svg#PPHatton-Ultralight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
